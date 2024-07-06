@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Button from './components/Button'
 function App() {
-  const [bgColor, setBgColor] = useState("blue");
+  const [bgColor, setBgColor] = useState("black");
   const handleColorChange = (color) => {
     setBgColor(color);
    // document.body.style.backgroundColor = color;
